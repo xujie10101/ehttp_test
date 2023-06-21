@@ -1,0 +1,8 @@
+language: cpp
+compiler:
+- g++
+os:
+- linux
+script: make && make test && chmod +x ./script/run_ut.sh && ./script/run_ut.sh
+
+
